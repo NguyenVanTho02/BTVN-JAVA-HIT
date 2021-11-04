@@ -32,9 +32,14 @@ public class Card {
 		System.out.println("\nMa Phieu: " + idCard);
 		System.out.println("------------LIST PRODUCT--------------");
 		System.out.printf("%-15s%-15s%-15s\n", "Ma hang", "Ten hang", "Don gia");
+		double total = 0;
+		
 		for (int i = 0; i < n; i++) {
 			product[i].Output();
+			total += product[i].getPrice();
 		}
+		
+		System.out.print("\nTong tien: " + total);
 	}
 	
 }

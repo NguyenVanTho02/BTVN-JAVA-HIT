@@ -22,4 +22,8 @@ public class Product {
 	public void Output() {
 		System.out.printf("%-15s%-15s%-15s\n", idProduct, nameProduct, price);
 	}
+	
+	public double getPrice() {
+		return this.price;
+	}
 }

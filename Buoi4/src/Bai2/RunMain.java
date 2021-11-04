@@ -7,9 +7,9 @@ public class RunMain {
 		Scanner sc = new Scanner(System.in);
 		
 		Personnel ps = new Personnel();
-		System.out.println("Enter infomation of personnel: ");
+		System.out.println("\nEnter infomation of personnel: ");
 		ps.Input();
-		System.out.println("Infomation of personnel:");
+		System.out.println("\nInfomation of personnel:");
 		ps.Output();
 	}
 }

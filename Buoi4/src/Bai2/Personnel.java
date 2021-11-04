@@ -21,7 +21,7 @@ public class Personnel {
 	public void Output() {
 		System.out.println("ID personnel: " + idPersonnel);
 		System.out.println("Full name: " + fullName);
-		System.out.println("Date: ");
+		System.out.print("Date: ");
 		date.Output();
 	}
 }
